@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1B1635">
+    <TextView
+        android:text="Имя"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="43.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:typeface="monospace"
+        android:layout_marginLeft="0dp"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextName"
+        android:typeface="monospace"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:textColor="@android:color/white"
+        style="@android:style/TextAppearance.Holo" />
+    <TextView
+        android:text="Фамилия"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="92.5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:typeface="monospace"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextSecondName"
+        android:typeface="monospace"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:textColor="@android:color/white" />
+    <TextView
+        android:text="Отчество"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="105.5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:typeface="monospace"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextMiddleName"
+        android:typeface="monospace"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:textColor="@android:color/white" />
+    <TextView
+        android:text="Группа"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="76.5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:typeface="monospace"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextGroup"
+        android:typeface="monospace"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:textColor="@android:color/white" />
+    <Button
+        android:text="Ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonOk"
+        android:layout_marginTop="35dp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/whitebutton"
+        style="@style/button_text" />
+</LinearLayout>

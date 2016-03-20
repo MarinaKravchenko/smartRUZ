@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="SmartScheduler\SmartScheduler.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.0123456789ABCDEF" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SmartScheduler\MainActivity.cs">
+    <Files>
+      <File FileName="SmartScheduler\MainActivity.cs" Line="262" Column="13" />
+      <File FileName="SmartScheduler\ApiInteraction.cs" Line="46" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="SmartScheduler\MainActivity.cs" line="271" offsetX="704" offsetY="4320" expression="added_events" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MonoDevelop.Ide.ItemProperties.SmartScheduler AndroidDesignerPreferredDevice="Nexus 4" />
+</Properties>
